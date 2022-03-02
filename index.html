@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>NFT preview card component</title>
 </head>
@@ -12,20 +15,26 @@
 <body>
   <main>
     <header>
-      <img src="./images/image-equilibrium.jpg" alt="image">
+      <div class="af"><img src="./images/icon-view.svg" alt=""></div>
     </header>
     <section>
-      <h1>Equilibrium #3429</h1>
+      <a href="">
+        <h1>Equilibrium #3429</h1>
+      </a>
+
       <p>Our Equilibrium collection promotes balance and calm.</p>
-      <span>0.041 ETH 3 days left</span>
+      <div class="status"> <span id="hm"><img src="./images/icon-ethereum.svg" alt="icon"> 0.041 ETH</span> <span
+          id="days"><img src="./images/icon-clock.svg" alt="icon"> 3 days left</span> </div>
     </section>
+    <hr>
     <footer>
-      <img src="./images/image-avatar.png" alt=""> Creation of Jules Wyvern
+      <img src="./images/image-avatar.png" alt="image-avatar"> <span id="co">Creation of</span> &nbsp; <a href=""> Jules
+        Wyvern</a>
     </footer>
   </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/omarsaleh1">Omar</a>.
   </div>
 </body>
 
